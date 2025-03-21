@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Beauty Salon</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="wIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style5.css">
+    <style>
+        .navbar-nav {
+            margin: auto;
+        }
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+        }
+        .navbar-brand img {
+            margin-right: 10px;
+        }
+        .nav-item {
+            margin-left: 15px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+           
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/rarelogo.png" alt="Logo" class="logo" width="30" height="30">
+                        RARE BEAUTY
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="aboutbeauty.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="beautygallary.html">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="beautyshop.html">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="beautycart.html">Cart</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#footer">Contact</a> 
+                            </li>
+                        </ul>
+                        <form class="d-flex ms-3">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-light" type="submit">Search</button>
+                        </form>
+                        <a class="btn btn-outline-light ms-3" href="booknow.html">Book Now</a>
+                    </div>
+                </div>
+            </nav>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000"> <!-- 2 seconds -->
+                        <img src="images/home1.jpg" class="d-block w-100" alt="beauty">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Special For You Love!!!</h1>
+                            <a class="btn btn-primary" href="booknow.html">Book an Appointment</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000"> <!-- 2 seconds -->
+                        <img src="images/home2.jpg" class="d-block w-100" alt="beauty">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Experience the Best</h>
+                            <a class="btn btn-primary" href="booknow.html">Book an Appointment</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000"> <!-- 2 seconds -->
+                        <img src="images/home4.webp" class="d-block w-100" alt="beauty">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Feel the Difference</h1>
+                            <a class="btn btn-primary" href="booknow.html">Book an Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <section id="our-history" class="py-5">
+                <div class="container text-center">
+                    <img src="images/makeup.jpg" alt="History Image" class="img-fluid mb-4">
+                    <h2 class="display-4">For You</h2>
+                    <p class="lead">Step into a world of beauty and luxury.<br>
+                        Where every detail is designed to make you shine.<br>
+                        Indulge in our signature treatments and feel your best.<br>
+                        At RARE BEAUTY, your glow is our passion.</p>
+                    <a class="btn btn-outline-dark" href="aboutbeauty.html">About Us</a>
+                </div>
+            </section>
+            <section id="expert-section" class="py-5">
+                <div class="container text-center">
+                    <h1>Reserve an Appointment with us on Following</h1>
+                    <h2 class="display-4">We are expert in</h2>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <a href="booknow.html">
+                                <img src="images/facemakeup.avif" alt="Face Makeup" class="img-fluid mb-3">
+                                <h3>Face Makeup</h3>
+                                <p>Makeup enhances beauty, boosts confidence, and lets you express yourself creatively! 💄✨</p>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="booknow.html">
+                                <img src="images/eyelip.webp" alt="Eye & Lips" class="img-fluid mb-3">
+                                <h3>Eye & Lips</h3>
+                                <p>Bold lips and striking eyes create a flawless, confident, and glamorous look! 💄👁️✨</p>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="booknow.html">
+                                <img src="images/skincare.avif" alt="Skin Care" class="img-fluid mb-3">
+                                <h3>Skin Care</h3>
+                                <p>Hydrate, nourish, protect—your skin deserves love for a glowing, healthy, confident you!🌿✨</p>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="booknow.html">
+                                <img src="images/hair.png" alt="Hair Styling" class="img-fluid mb-3">
+                                <h3>Hair Styling</h3>
+                                <p>Perfect hair, endless style, and unstoppable confidence—your look, your rules! 💁‍♀️✨</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="special-offer" class="py-5">
+                <div class="container text-center">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <h2 class="display-4">Special Offer</h2>
+                            <p class="lead">💖 Exclusive Offer: 20% OFF on All Beauty Services! 💖
+
+                                Indulge in the ultimate beauty experience with a fabulous 20% discount on all our services! Now is the perfect time to treat yourself and shine even brighter.
+                                
+                                ✨ Book now and glow with confidence! ✨
+                                
+                                Hurry, offer lasts for a limited time only!</p>
+                            <div class="d-flex justify-content-center" id="countdown">
+                                <div class="p-2">
+                                    <h3 id="days"></h3>
+                                    <p>Days</p>
+                                </div>
+                                <div class="p-2">
+                                    <h3 id="hours"></h3>
+                                    <p>Hours</p>
+                                </div>
+                                <div class="p-2">
+                                    <h3 id="minutes"></h3>
+                                    <p>Minutes</p>
+                                </div>
+                                <div class="p-2">
+                                    <h3 id="seconds"></h3>
+                                    <p>Seconds</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="images/special.webp" alt="Special Offer" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="our-beauty-center" class="py-5">
+                <div class="container text-center">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <img src="images/knowus.jpg" alt="Beauty Center" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="display-4">Our Beauty Center</h2>
+                            <p class="lead">
+                                  Where beauty meets excellence! We specialize in enhancing your natural beauty with luxurious treatments and personalized services. From refreshing facials to trend-setting haircuts, we’re dedicated to making you feel and look your best.</p>
+                            <div class="social-icons">
+                                <a href="#" class="btn btn-outline-dark"><i class="bi bi-facebook"></i> Facebook</a>
+                                <a href="#" class="btn btn-outline-dark"><i class="bi bi-twitter"></i> Twitter</a>
+                                <a href="#" class="btn btn-outline-dark"><i class="bi bi-instagram"></i> Instagram</a>
+                                <a href="#" class="btn btn-outline-dark"><i class="bi bi-skype"></i> Skype</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact-us" class="py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="display-4">Get in Touch</h2>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Your Name (*)</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Your Email (*)</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label">Subject</label>
+                                    <input type="text" class="form-control" id="subject">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="department" class="form-label">Business Department</label>
+                                    <select class="form-select" id="department">
+                                        <option selected>Choose...</option>
+                                        <option value="1">Sales</option>
+                                        <option value="2">Support</option>
+                                        <option value="3">General</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Your Message</label>
+                                    <textarea class="form-control" id="message" rows="4"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </form>
+                        </div>
+                        <div class="col-md-6">
+                            <h2>Location</h2>
+                            <a href="https://www.google.com/maps/place/California,+USA/@37.1514692,-124.5946643,6z/data=!3m1!4b1!4m6!3m5!1s0x808fb9fe5f285e3d:0x8b5109a227086f55!8m2!3d36.778261!4d-119.4179324!16zL20vMDFuN3E?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                            <img src="images/cqal.png" alt="Map" class="img-fluid"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- Footer Section -->
+    <footer>
+        <section id="footer">
+        <div class="footer-container">
+            <div class="footer-contact">
+                <h3>RARE BEAUTY</h3>
+                <ul>
+                    <li>Email: info@rarebeauty.com</li>
+                    <li>Phone: +123-678-9234</li>
+                    <li>Address: California, united States</li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Subscribe on our newsletter</h3>
+                <form class="d-flex justify-content-center">
+                    <input type="email" class="form-control me-2" placeholder="Enter your email ..." aria-label="Email">
+                    <button class="btn btn-primary" type="submit">Join Now</button>
+                </form>
+                <ul>
+                    <a href="https://www.facebook.com/CST.University/" class="btn btn-outline-dark"><i class="bi bi-facebook"></i> Facebook</a>
+                    <a href="https://www.facebook.com/CST.University/" class="btn btn-outline-dark"><i class="bi bi-twitter"></i> Twitter</a>
+                    <a href="https://www.facebook.com/CST.University/" class="btn btn-outline-dark"><i class="bi bi-instagram"></i> Instagram</a>
+                    <a href="https://www.facebook.com/CST.University/" class="btn btn-outline-dark"><i class="bi bi-skype"></i> Skype</a>
+                </ul>
+            </div>
+        </div>
+    </section>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+    crossorigin="anonymous"></script>
+    <script src="beautyjava.js"></script>
+</body>
+</html>

@@ -1,0 +1,244 @@
+
+html, body {
+    height: 100%;
+    background-color: #e5d7e2;
+}
+.carousel-item img {
+    width:100%;
+    height: auto;  
+    object-fit: cover;
+}
+.navbar{
+    padding: 40px 10px;
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+    z-index: 1000; 
+    border-radius:5px ;
+}
+.navbar img {
+    max-width: 80px; 
+    height: auto;
+    border-radius: 50%;
+}
+.navbar-brand img{
+    width:100px;
+    height:auto;
+    border-radius: 50%;
+}
+.carousel-caption {
+    color: #551c5d; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    font-style: oblique;
+    font-size: 2rem;
+   font-weight: bolder;
+}
+
+.btn-primary {
+    background-color: #cac1cb; 
+    border-color: #ffffff; 
+    color: #000000; 
+}
+
+.btn-primary:hover {
+    background-color: #f8f9fa; 
+    border-color: #f8f9fa;
+    color: #000000; 
+}
+#our-history {
+    background-color: #e5d7e2; 
+    padding: 60px 0; 
+}
+
+#our-history .container {
+    max-width: 800px;
+    margin: 0 auto; 
+}
+
+#our-history img {
+    max-width: 450px; 
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 20%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
+
+#our-history h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px; 
+}
+
+#our-history p {
+    font-size: 1.25rem;
+    margin-bottom: 30px; 
+}
+
+#our-history .btn {
+    font-size: 1rem; 
+    padding: 10px 20px;
+} 
+#expert-section {
+
+    padding: 60px 0; 
+}
+
+#expert-section .container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+#expert-section h2 {
+    font-size: 2.5rem; 
+    margin-bottom: 40px; 
+}
+#expert-section .col-md-3 {
+    margin-bottom: 30px; 
+}
+
+#expert-section img {
+    max-width: 100%; 
+    border-radius: 50%; 
+}
+
+#expert-section h3 {
+    font-size: 1.5rem; 
+    margin-top: 20px; 
+}
+
+#expert-section p {
+    font-size: 1rem; 
+}
+#expert-section a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+#expert-section a:hover {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+#special-offer {
+   
+    padding: 60px 0;
+}
+
+#special-offer .container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+#special-offer h2 {
+    font-size: 2.5rem; 
+    margin-bottom: 20px;
+}
+#special-offer p {
+    font-size: 1.25rem;
+    margin-bottom: 30px; 
+}
+
+#special-offer .d-flex {
+    margin-bottom: 20px; 
+}
+
+#special-offer .p-2 {
+    padding: 10px 20px; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    margin: 0 5px; 
+}
+#special-offer .p-2 h3 {
+    font-size: 2rem; 
+    margin-bottom: 5px;
+}
+
+#special-offer .p-2 p {
+    font-size: 1rem; 
+    margin: 0; 
+}
+#special-offer img {
+    max-width: 100%; 
+    border-radius: 5%; 
+}
+#our-beauty-center img {
+    max-width: 100%; 
+    border-radius: 5%; 
+}
+       
+      
+        .wrapper {
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .content {
+            flex: 1;
+        }
+        .footer-container {
+            background: #2e2e2f;
+            color: white;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .footer-contact, .footer-social {
+            flex: 1;
+            margin: 10px;
+        }
+        
+        .footer-contact ul, .footer-social ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .footer-contact ul li, .footer-social ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-contact ul li a, .footer-social ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .footer-social ul {
+            display: flex;
+        }
+        
+        .footer-social ul li {
+            margin-right: 10px;
+        }
+        
+        .footer-social ul li a {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background: white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            color: #39393d;
+        }
+        .footer-social a{
+            background-color: #e5d7e2;
+            color: white;
+        }
+        
+       
+        #map {
+            height: 600px; /* Ensure the map container has a height */
+        }
+    
+        .navbar-nav {
+            margin: auto;
+        }
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+        }
+        .navbar-brand img {
+            margin-right: 10px;
+        }
+        .nav-item {
+            margin-left: 15px; /* Add margin to the left of each nav item */
+        }
